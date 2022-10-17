@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home work 7</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <div class="container">
+        <!------------------------section1------------------------->
+      <section class="section1">
+        <div class="section-list">
+        <div class="stroke">
+            <img class="img" src="./images/Stroke5.png" alt="">
+        </div>
+        <h2 class="section1-title">Kreativ</h2>
+        <p class="input-title">Let’s get you started</p>
+        <form autocomplete="on">
+          <p class="input-box">
+            <label for="name">Full name</label>
+            <input class="input-text" type="name" id="name" placeholder="Ade Tiger" />
+          </p>
+
+          <p class="input-box">
+            <label for="email">Email address</label>
+            <input
+              class="input-text"
+              type="email"
+              placeholder="yourname@email.com" required  id="email"
+            />
+          </p>
+          <p class="input-box">
+            <label  for="tel">Phone number</label>
+            <input class="input-text" type="tel" placeholder="+234 800 2738 9700" maxlength="18" required id="tel"/>
+          </p>
+          
+          <p class="input-box">
+               <label for="password">Create password</label>
+               <input class="input-text" type="password" placeholder="● ● ● ● ● ● ● ●" size="8" required id="password"/>
+          </p>
+          <p class="text">
+               Password must contain a minimum of 8 characters <br />
+               Password must contain at least one symbol e.g. @, !
+          </p>
+          <p class="input-box">
+            <label for="location"
+              >Location <span class="label-el">(Optional)</span></label
+            >
+            <input
+              class="input-text"
+              type="text"
+              placeholder="Select Location" id="location" list="region"
+            />
+            <datalist id="region">
+                <option value="Вінницька область">
+                <option value="Волинська область">
+                <option value="Дніпропетровська область">
+                <option value="Донецька область">
+                <option value="Житомирська область">
+                <option value="Закарпатська область">
+                <option value="Запорізька область">
+                <option value="Івано-Франківська область">
+                <option value="Київська область">
+                <option value="Кiровоградська область">
+                <option value="Луганська область">
+                <option value="Львівська область">
+                <option value="Миколаївська область">
+                <option value="Одеська область">
+                <option value="Полтавська область">
+                <option value="Рівненська область">
+                <option value="Сумська область">
+                <option value="Тернопільська область">
+                <option value="Харківська область">
+                <option value="Херсонська область">
+                <option value="Хмельницька область">
+                <option value="Черкаська область">
+                <option value="Чернівецька область">
+                <option value="Чернігівська область">
+                <option value="Автономна Республіка Крим">
+            
+            </datalist>
+          </p>
+       <p class="submit-box">
+          <input class="submit" type="submit" value="Sign Up" />
+        </p>
+        <div class="user">
+          <p class="text-user">Already a user?</p>
+          <a class="login" href="#">Login</a>
+        </form>
+    </div>
+      </section>
+      <!-----------------------section2----------------------->
+
+      <section class="section2">
+        <div class="btn_box">
+          <button class="btn" type="button">Home</button>
+          <button class="btn" type="button">Contact</button>
+        </div>
+        <div class="title-box">
+          <p class="title">
+            “Creativity is intelligence having fun”<br /><span class="signature"
+              >- Albert Einstein</span
+            >
+          </p>
+          <p class="title-substrate">
+            “Creativity is <br />
+            = having <br />
+            fun”
+          </p>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap");
+
+:root {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 10px;
+  --body-background: linear-gradient(112.23deg, #3e718e 0%, #64969b 100%);
+  --section2-background: linear-gradient(160.42deg, #517879 0%, #214159 100%);
+  --section1-background: #ffffff;
+  --text-color-input: #a8a8a8;
+  --text-color-section2: #ffffff;
+  --text-color-section1: #000000;
+  --label-text-color: #000000;
+  --placeholder-text-color: #cccccc;
+}
+body {
+  max-width: 1500px;
+  min-width: 700px;
+  color: var(--text-color-input);
+  background: var(--body-background);
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 70%;
+  min-width: 800px;
+  height: 667px;
+  display: flex;
+  margin: 110px auto 180px;
+}
+/* -----------------------section1----------------- */
+.section1 {
+  width: 55%;
+  background: var(--section1-background);
+}
+
+.section-list {
+  position: relative;
+}
+
+.stroke {
+  position: relative;
+}
+.img {
+  position: absolute;
+  left: 0%;
+  top: -11px;
+  z-index: 0;
+}
+
+.section1-title {
+  width: 19%;
+  margin-top: 12px;
+  margin-left: 32px;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 1;
+  background-image: linear-gradient(
+    93.38deg,
+    #496f74 -3.47%,
+    #6e9195 35.61%,
+    #2d4f61 84.29%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.input-title {
+  text-align: center;
+  margin: 0;
+  margin-top: 60px;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.8;
+  color: var(--label-text-color);
+}
+
+form {
+  position: absolute;
+  top: 120;
+  left: 5%;
+  width: 90%;
+  z-index: 1;
+}
+
+input::placeholder {
+  color: var(--placeholder-text-color);
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  height: 49px;
+  margin: 10px auto 0;
+  color: var(--placeholder-text-color);
+}
+
+.input-text {
+  height: 25px;
+  font-size: 1.2rem;
+  line-height: 1.33;
+  border: 1px solid #cccccc;
+  box-shadow: 0px 2px 2px 2px rgba(204, 204, 204, 0.1);
+  border-radius: 4px;
+}
+
+.text {
+  margin: 0;
+  margin-left: 13%;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+label {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: var(--label-text-color);
+}
+
+.label-el {
+  font-size: 1.2rem;
+  line-height: 1.33;
+  color: #a8a8a8;
+}
+
+.submit-box {
+  text-align: center;
+  margin: 0;
+}
+
+.submit {
+  width: 65%;
+  height: 34px;
+  margin: 85px auto 12px;
+  background: #27485d;
+  border: 1px solid #284a5e;
+  box-shadow: 0px 2px 2px 2px rgba(204, 204, 204, 0.1);
+  border-radius: 4px;
+  color: var(--text-color-section2);
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 37px;
+}
+
+.text-user {
+  margin: 0;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #c4c4c4;
+}
+
+.login {
+  background: none;
+  border: none;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-decoration: none;
+  text-decoration-line: underline;
+  color: #476d73;
+  margin-left: 8px;
+}
+
+/* --------------------section2--------------------- */
+
+.section2 {
+  width: 45%;
+  background: var(--section2-background);
+  box-shadow: -3px 2px 10px 7px #4e7577;
+}
+
+.btn_box {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 8px;
+  margin-right: 12px;
+}
+
+.btn {
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: var(--text-color-section2);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.title-box {
+  position: relative;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 1.25;
+  color: var(--text-color-section2);
+  opacity: 0.8;
+  position: absolute;
+  top: 200px;
+  left: 14%;
+  margin: 0;
+  z-index: 3;
+}
+
+.signature {
+  position: absolute;
+  top: 180px;
+  left: 0;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: var(--text-color-section2);
+}
+
+.title-substrate {
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 1.25;
+  color: var(--text-color-section2);
+  opacity: 0.1;
+  position: absolute;
+  top: 205px;
+  left: 14%;
+  margin: 0;
+  z-index: 2;
+}
